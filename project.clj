@@ -1,9 +1,10 @@
 (defproject kiries "0.1.0-SNAPSHOT"
   :description "A bundled deployment of Kibana, Riemann, and ElasticSearch"
-  :dependencies [[org.clojure/clojure "1.7.0"]
+  :dependencies [[org.clojure/clojure "1.8.0"]
                  [org.clojure/tools.cli "0.3.3"]
+                 [org.clojure/tools.nrepl "0.2.12"]
 
-                 [riemann "0.2.10"]
+                 [riemann "0.2.12"]
 
                  [clj-json "0.5.3"]
 
@@ -22,10 +23,8 @@
                  [compojure "1.4.0"]
                  [hiccup "1.0.5"]
                  [org.markdownj/markdownj-core "0.4"]
-                 [ring/ring-core "1.4.0"]
-                 [ring/ring-devel "1.4.0"]
+                 [ring "1.5.1"]
                  [ring/ring-defaults "0.1.5"]
-                 [ring/ring-jetty-adapter "1.4.0"]
 
                  ;; Redis integration
                  [com.taoensso/carmine "2.12.2"]]
