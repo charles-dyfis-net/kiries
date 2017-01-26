@@ -15,7 +15,7 @@ backup=(
 license=( EPL ) # some components, but not all, also under Apache license
 install=kiries.install
 
-source=('kiries::git+http://github.com/threatgrid/kiries#branch=master')
+source=('kiries::git+http://github.com/charles-dyfis-net/kiries#branch=stable')
 md5sums=( SKIP )
 
 pkgver() {
